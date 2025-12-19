@@ -37,10 +37,10 @@ sequenceDiagram
 
 ```bash
 # Beyond Presence Config
-export BEY_API_KEY="..."
+export BEY_API_KEY="YOUR_API_KEY_HERE"
 
 # OpenAI config (or other models, tts, stt)
-export OPENAI_API_KEY="..."
+export OPENAI_API_KEY="YOUR_API_KEY_HERE"
 
 # LiveKit config
 export LIVEKIT_API_KEY="..."

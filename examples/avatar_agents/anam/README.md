@@ -10,15 +10,15 @@ Create your avatar [here](https://lab.anam.dev/avatars)
 
 ```bash
 # Anam Config
-export ANAM_API_KEY="..."
+export ANAM_API_KEY="YOUR_API_KEY_HERE"
 export ANAM_AVATAR_ID="..."
 
 # OpenAI config (or other models, tts, stt)
-export OPENAI_API_KEY="..."
+export OPENAI_API_KEY="YOUR_API_KEY_HERE"
 
 # LiveKit config
-export LIVEKIT_API_KEY="..."
-export LIVEKIT_API_SECRET="..."
+export LIVEKIT_API_KEY="YOUR_API_KEY_HERE"
+export LIVEKIT_API_SECRET="YOUR_SECRET_HERE"
 export LIVEKIT_URL="..."
 ```
 
