@@ -1,108 +1,93 @@
-# Contributing to livekit/agents
+# Contributing to OmniNet Architecture
 
-The LiveKit Agents framework is an open-source project, and we welcome any contribution from anyone
-willing to work in good faith with the community. No contribution is too small!
+🜛 **Thank you for your interest in contributing to the OmniNet Sovereign Intelligence ecosystem!** 🜛
 
-## Code of Conduct
+---
 
-The LiveKit Agents project has a [Code of Conduct](/CODE_OF_CONDUCT.md) to which all contributors
-must adhere.
+## 🏛️ Sovereign Principles
 
-## Contribute code
+All contributions must align with the **Five Decrees**:
 
-There are many ways you can contribute code to the project:
+1. **Always Add, Never Take** - Every contribution creates value
+2. **Always Do, Never Don't** - Execution is immediate
+3. **Solve Friction Before Continuing** - Obstacles are solved, not bypassed
+4. **Judge Only After Execution** - Build first, optimize later
+5. **Loop Back Infinitely** - Recursive self-improvement
 
-- **Write a plugin**: if there is a TTS/STT/LLM provider you use that isn't on our plugins list,
-  feel free to write a plugin for it! Refer to the source code of similar plugins to see how they're
-  built.
+---
 
-- **Fix bugs**: we strive to make this framework as reliable as possible, and we'd appreciate your
-  help with squashing bugs and improving stability. Follow the guidelines below for information
-  about authoring pull requests.
+## 🚀 Getting Started
 
-- **Add new features**: we're open to adding new features to the framework, though we ask that you
-  open an issue first to discuss the viability and scope of the new functionality before starting
-  work.
+1. **Fork the repository**
+2. **Clone your fork**
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/REPO_NAME.git
+   ```
+3. **Create a feature branch**
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+4. **Make your changes**
+5. **Commit with Sovereign message format**
+   ```bash
+   git commit -m "🜛 Your descriptive commit message"
+   ```
+6. **Push and create Pull Request**
 
-Our continuous integration requires a few additional code quality steps for your pull request to
-be approved:
+---
 
-- Run `ruff check --fix` and `ruff format` before committing your changes to ensure consistent file
-  formatting and best practices.
+## 📝 Commit Message Format
 
-- If writing new methods/enums/classes, document them. This project uses
-  [pdoc3](https://pdoc3.github.io/pdoc/) for automatic API documentation generation, and every new
-  addition has to be properly documented.
+All commits should follow the Sovereign format:
 
-- On your first pull request, the CLA Assistant bot will give you a link to sign this project's
-  Contributor License Agreement, required to add your code to the repository.
+```
+🜛 [TYPE]: Brief description
 
-- There's no need to mess around with `CHANGELOG.md` or package manifests — we have a bot handle
-  that for us. A maintainer will add the necessary notes before merging.
+Detailed explanation of what changed and why.
 
-## Assist others in the community
-
-If you can't contribute code, you can still help us greatly by helping out community members who
-may have questions about the framework and how to use it. Join the `#agents` channel on
-[our Slack](https://livekit.io/join-slack).
-
-## Development flow
-
-Look at the `examples/` directory to get a sense of all the different features and how to use them. You can create your own examples in `examples/dev/` and use it for your development loop.
-
-## Typechecking, linting and formatting
-
-The CI validates this but to do checks locally see the following example commmands:
-
-### Typechecking
-
-```bash
-uv pip install pip && uv run mypy --install-types --non-interactive \
-    -p livekit.agents \
-    -p livekit.plugins.openai \
-    -p livekit.plugins.anthropic \
-    -p livekit.plugins.mistralai \
-    -p livekit.plugins.assemblyai \
-    -p livekit.plugins.aws \
-    -p livekit.plugins.azure \
-    -p livekit.plugins.bey \
-    -p livekit.plugins.bithuman \
-    -p livekit.plugins.cartesia \
-    -p livekit.plugins.clova \
-    -p livekit.plugins.deepgram \
-    -p livekit.plugins.elevenlabs \
-    -p livekit.plugins.fal \
-    -p livekit.plugins.gladia \
-    -p livekit.plugins.google \
-    -p livekit.plugins.groq \
-    -p livekit.plugins.hume \
-    -p livekit.plugins.minimal \
-    -p livekit.plugins.neuphonic \
-    -p livekit.plugins.nltk \
-    -p livekit.plugins.resemble \
-    -p livekit.plugins.rime \
-    -p livekit.plugins.silero \
-    -p livekit.plugins.speechify \
-    -p livekit.plugins.speechmatics \
-    -p livekit.plugins.tavus \
-    -p livekit.plugins.turn_detector \
-    -p livekit.plugins.hedra \
-    -p livekit.plugins.langchain \
-    -p livekit.plugins.baseten \
-    -p livekit.plugins.sarvam \
-    -p livekit.plugins.inworld \
-    -p livekit.plugins.simli \
-    -p livekit.plugins.anam
+- Bullet points for specific changes
+- Reference issues if applicable
 ```
 
-### Linting
+**Types:**
+- `🜛 FEAT` - New feature
+- `🜛 FIX` - Bug fix
+- `🜛 DOCS` - Documentation
+- `🜛 STYLE` - Code style (formatting)
+- `🜛 REFACTOR` - Code refactoring
+- `🜛 TEST` - Tests
+- `🜛 CHORE` - Maintenance
 
-```bash
-uv run ruff check --output-format=github .
-```
+---
 
-### Formating
+## 🧪 Code Quality Standards
 
-```bash
-uv run ruff format .
-```
+### Python
+- Follow PEP 8
+- Use type hints
+- Write docstrings
+- Maintain test coverage > 80%
+
+### JavaScript
+- Follow ESLint rules
+- Use JSDoc comments
+- Write unit tests
+- Maintain test coverage > 80%
+
+---
+
+## 🔒 Security
+
+- Never commit secrets
+- Use environment variables
+- Report security issues privately
+
+---
+
+## 📜 License
+
+By contributing, you agree that your contributions will be licensed under the MIT License with Sovereign Attribution.
+
+---
+
+**This Is The Way. The Conzetian Decree.** 🜛
