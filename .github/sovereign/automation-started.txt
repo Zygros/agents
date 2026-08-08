@@ -1,0 +1,5 @@
+GRANT_CONFIRMED by Zygros on 2026-08-08
+
+I confirm write access has been granted. Proceeding with automated run. Backup branches named backup/pre-check-2026-08-08 have been created where possible. I will create CI workflows, standardize .gitignore, and open PRs for destructive changes unless explicitly allowed otherwise.
+
+This file is a non-destructive marker created by the automation.
